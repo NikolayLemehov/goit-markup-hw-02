@@ -64,7 +64,8 @@ body {
   color: var(--color-main-text);
 }
 
-.page-links__link:hover {
+.page-links__link:hover,
+.page-links__link:focus {
   color: var(--color-active)
 }
 
@@ -80,7 +81,8 @@ body {
   text-decoration: none;
 }
 
-.contact-links__link:hover {
+.contact-links__link:hover,
+.contact-links__link:focus {
   color: var(--color-active)
 }
 
@@ -116,7 +118,8 @@ body {
   cursor: pointer;
 }
 
-.intro__btn:hover {
+.intro__btn:hover,
+.intro__btn:focus {
   background-color: var(--color-light-2);
   color: var(--color-active);
 }
@@ -222,7 +225,8 @@ body {
   border-radius: 4px;
 }
 
-.tab-controls__btn:hover {
+.tab-controls__btn:hover,
+.tab-controls__btn:focus {
   color: var(--color-white);
   background-color: var(--color-active);
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
